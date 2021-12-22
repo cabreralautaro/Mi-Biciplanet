@@ -1,0 +1,1452 @@
+/*@media screen and (min-width: 360px) and (max-width: 480px) {
+    .main__index{
+        .index__h1{
+            display: flex;
+            justify-content: center;
+            color: white;
+            position: relative;
+            bottom: 35vw;
+            font-family: 'Poppins', sans-serif;
+        }
+        .index__h2{
+            display: flex;
+            justify-content: center;
+            color: rgb(0, 0, 0);
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+        }
+        .main__icons{
+            display: flex;
+            justify-content: center;
+            gap: 20vw;
+            position: relative;
+            top: 5vw;
+        }
+        .main__subtitles{
+            display: inline-flex;
+            gap: 10vw;
+            position: relative;
+            top: 7vw;
+            left: 11.5vw;
+        }
+        .main__popular{
+            .index2__h2{
+                display: flex;
+                justify-content: center;
+                color: rgb(0, 0, 0);
+                font-family: 'Nunito', sans-serif;
+                font-style: normal;
+                position: relative;
+                top: 15vw;
+            }
+            .main__line{
+                position: relative;
+                left: 46vw;
+                top: 10vw;
+            }
+        }
+        .main__images{
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 8vw;
+            gap: 10vw;
+            height: auto;
+            width: 80vw;
+            .img-thumbnail{
+                border: none;
+            }
+        }
+        .main__txtimg{
+            text-align: center;
+            gap: 40px;
+        }
+        
+        
+        .main__txtimg{
+            gap: 20px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            .txt1{
+                display: inline-flex;
+                position: relative;
+                padding: 2vw;
+                bottom: 198vw;
+                left: 28vw;
+                font-size: 1.5rem;
+                font-family: 'Poppins', sans-serif;
+                border: solid 1px rgb(255, 255, 255);
+                background-color: rgba(0, 0, 0, .5);
+            }
+            .txt1:hover{
+                background-color: rgb(255, 255, 255);
+                color: black;
+            }
+            .txt2{
+                display: inline-flex;
+                position: relative;
+                bottom: 140.5vw;
+                left: 11vw;
+                padding: 2vw;
+                font-size: 1.5rem;
+                font-family: 'Poppins', sans-serif;
+                border: solid 1px rgb(255, 255, 255);
+                background-color: rgba(0, 0, 0, .5);
+            }
+            .txt3{
+                display: inline-flex;
+                position: relative;
+                bottom: 83vw;
+                right: 6vw;
+                padding: 2vw;
+                font-size: 1.5rem;
+                font-family: 'Poppins', sans-serif;
+                border: solid 1px rgb(255, 255, 255);
+                background-color: rgba(0, 0, 0, .5);
+            }
+            .txt4{
+                display: inline-flex;
+                position: relative;
+                bottom: 25vw;
+                right: 23vw;
+                padding: 2vw;
+                font-size: 1.5rem;
+                font-family: 'Poppins', sans-serif;
+                border: solid 1px rgb(255, 255, 255);
+                background-color: rgba(0, 0, 0, .5);
+            }
+            
+        }
+        
+    }
+}*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .index__h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    bottom: 35vw;
+  }
+  .index__h2 {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 2rem;
+  }
+  .main__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20vw;
+    position: relative;
+    top: 5vw;
+  }
+  .main__subtitles .subtitle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 10vw;
+    font-size: 1.6rem;
+  }
+  .main__popular .index2__h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 15vw;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+  }
+  .main__popular .main__line {
+    position: relative;
+    left: 46vw;
+    top: 15vw;
+  }
+  .main__images .img-thumbnail {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    border: none;
+    height: auto;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 13vw;
+  }
+  .flex-shrink-0 {
+    position: relative;
+    top: 15vw;
+  }
+  /*-------FIN INDEX------*/
+  /*-------NORDIC BIKE-----*/
+  .main__nordic .main__mountain1 {
+    height: auto;
+    width: 100vw;
+  }
+  .main__nordic .main__title {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 2vw;
+    margin: 2vw;
+  }
+  .main__nordic .main__img {
+    height: auto;
+    width: 30vw;
+  }
+  .main__nordic .main__h4 {
+    padding: 1vw;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    top: 3vw;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+  }
+  .footer__nordic {
+    position: relative;
+    bottom: 5vw;
+  }
+  /*-----INDUMENTARIA-----*/
+  .indu__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+  }
+  .indumentariaimg {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+  }
+  .indumentariaimg .ind1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__indu {
+    position: relative;
+    bottom: 12vw;
+  }
+  /*------MOUNTAIN-------*/
+  .mountain__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+  }
+  /*------BMX------*/
+  .bmx__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+  }
+  .bmximg {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+    position: relative;
+    bottom: 5vw;
+  }
+  .bmximg .bmx1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__bmx {
+    position: relative;
+    bottom: 15vw;
+  }
+  .body__contact {
+    background: url(../media/contacto.jpg);
+  }
+  .container .form {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  .container .form .form-header .form-title {
+    color: white;
+    font-weight: normal;
+    width: 90%;
+    max-width: 60vw;
+    margin: auto;
+    padding: 2vw 15vw;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+    border-radius: 1vw;
+    text-align: center;
+  }
+  .container .form .form-header .form-title .form-label {
+    display: block;
+  }
+  .form-label {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .form-textarea {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 70vw;
+    padding: 0.5rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 1rem;
+    color: white;
+    position: relative;
+    left: 0.1vw;
+  }
+  .form-input {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 80vw;
+    padding: 1rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 1rem;
+    color: white;
+  }
+  .btn-submit {
+    width: 50vw;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 1.5vw;
+    right: 1vw;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .index__h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    bottom: 35vw;
+  }
+  .index__h2 {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 2rem;
+  }
+  .main__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20vw;
+    position: relative;
+    top: 5vw;
+  }
+  .main__subtitles .subtitle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 10vw;
+    font-size: 1.6rem;
+  }
+  .main__popular .index2__h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 15vw;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+  }
+  .main__popular .main__line {
+    position: relative;
+    left: 47vw;
+    top: 13vw;
+  }
+  .main__images .img-thumbnail {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    border: none;
+    height: auto;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 13vw;
+  }
+  .flex-shrink-0 {
+    position: relative;
+    top: 15vw;
+  }
+  /*-------FIN INDEX------*/
+  /*-------NORDIC BIKE-----*/
+  .main__nordic .main__mountain1 {
+    height: auto;
+    width: 100vw;
+  }
+  .main__nordic .main__title {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 5vw;
+    margin: 2vw;
+  }
+  .main__nordic .main__img {
+    height: auto;
+    width: 30vw;
+  }
+  .main__nordic .main__h4 {
+    padding: 1vw;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    top: 2vw;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+  }
+  .footer__nordic {
+    position: relative;
+    bottom: 5vw;
+  }
+  /*------INDUMENTARIA--------*/
+  .indu__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+  }
+  .indumentariaimg {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+  }
+  .indumentariaimg .ind1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__indu {
+    position: relative;
+    bottom: 12vw;
+  }
+  /*-----MOUNTAIN BIKE------*/
+  .mountain__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+  }
+  /*----BMX-----*/
+  .bmx__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+  }
+  .bmximg {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+    position: relative;
+    bottom: 5vw;
+  }
+  .bmximg .bmx1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__bmx {
+    position: relative;
+    bottom: 15vw;
+  }
+  .body__contact {
+    background: url(../media/contacto.jpg);
+  }
+  .container .form {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  .container .form .form-header .form-title {
+    color: white;
+    font-weight: normal;
+    width: 90%;
+    max-width: 60vw;
+    margin: auto;
+    padding: 2vw 15vw;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+    border-radius: 1vw;
+    text-align: center;
+  }
+  .container .form .form-header .form-title .form-label {
+    display: block;
+  }
+  .form-label {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .form-textarea {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 70vw;
+    padding: 0.5rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 1rem;
+    color: white;
+    position: relative;
+    left: 0.1vw;
+  }
+  .form-input {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 80vw;
+    padding: 1rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 1rem;
+    color: white;
+  }
+  .btn-submit {
+    width: 50vw;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 1.5vw;
+    right: 1vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .index__h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    bottom: 35vw;
+  }
+  .index__h2 {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 2rem;
+  }
+  .main__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20vw;
+    position: relative;
+    top: 5vw;
+  }
+  .main__subtitles .subtitle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 10vw;
+    font-size: 1.6rem;
+  }
+  .main__popular .index2__h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 15vw;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+  }
+  .main__popular .main__line {
+    position: relative;
+    left: 47vw;
+    top: 13vw;
+  }
+  .main__images .img-thumbnail {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    border: none;
+    height: auto;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 13vw;
+  }
+  .flex-shrink-0 {
+    position: relative;
+    top: 15vw;
+  }
+  /*-----INDUMENTARIA---------*/
+  .indu__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+  }
+  .indumentariaimg {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+  }
+  .indumentariaimg .ind1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__indu {
+    position: relative;
+    bottom: 12vw;
+  }
+  /*------MOUNTAIN------*/
+  .mountain__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+  }
+  /*-----BMX------*/
+  .bmx__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+  }
+  .bmximg {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+    position: relative;
+    bottom: 5vw;
+  }
+  .bmximg .bmx1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__bmx {
+    position: relative;
+    bottom: 15vw;
+  }
+  /*-------NORDIC BIKE-----*/
+  .main__nordic .main__mountain1 {
+    height: auto;
+    width: 100vw;
+  }
+  .main__nordic .main__title {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 2vw;
+    margin: 2vw;
+  }
+  .main__nordic .main__img {
+    height: auto;
+    width: 30vw;
+  }
+  .main__nordic .main__h1 {
+    font-size: 4rem;
+  }
+  .main__nordic .main__h4 {
+    padding: 1vw;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    top: 2vw;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+  }
+  .footer__nordic {
+    position: relative;
+    bottom: 5vw;
+  }
+  .body__contact {
+    background: url(../media/contacto.jpg);
+  }
+  .container .form {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  .container .form .form-header .form-title {
+    color: white;
+    font-weight: normal;
+    width: 90%;
+    max-width: 60vw;
+    margin: auto;
+    padding: 2vw 15vw;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+    border-radius: 1vw;
+    text-align: center;
+  }
+  .container .form .form-header .form-title .form-label {
+    display: block;
+  }
+  .form-label {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .form-textarea {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 70vw;
+    padding: 0.5rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 1rem;
+    color: white;
+    position: relative;
+    left: 0.1vw;
+  }
+  .form-input {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 80vw;
+    padding: 1rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 1rem;
+    color: white;
+  }
+  .btn-submit {
+    width: 50vw;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 1.5vw;
+    right: 1vw;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .index__h1 {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    bottom: 35vw;
+  }
+  .index__h2 {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 3rem;
+  }
+  .main__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20vw;
+    position: relative;
+    top: 5vw;
+  }
+  .main__subtitles .subtitle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 10vw;
+    font-size: 1.6rem;
+  }
+  .main__popular .index2__h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 13vw;
+    font-size: 4rem;
+    font-family: 'Nunito', sans-serif;
+  }
+  .main__popular .main__line {
+    position: relative;
+    left: 49vw;
+    top: 13vw;
+  }
+  .main__images .img-thumbnail {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    border: none;
+    height: auto;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 13vw;
+  }
+  .flex-shrink-0 {
+    position: relative;
+    top: 15vw;
+  }
+  /*------INDUMENTARIA-------*/
+  .indu__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+  }
+  .indumentariaimg {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+  }
+  .indumentariaimg .ind1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__indu {
+    position: relative;
+    bottom: 12vw;
+  }
+  /*----MOUNTAIN BIKE------*/
+  .mountain__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+  }
+  /*-----BMX------*/
+  .bmx__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+  }
+  .bmximg {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+    position: relative;
+    bottom: 5vw;
+  }
+  .bmximg .bmx1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__bmx {
+    position: relative;
+    bottom: 15vw;
+  }
+  /*-------NORDIC BIKE-----*/
+  .main__nordic .main__mountain1 {
+    height: auto;
+    width: 100vw;
+  }
+  .main__nordic .main__title {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 2vw;
+    margin: 2vw;
+  }
+  .main__nordic .main__img {
+    height: auto;
+    width: 30vw;
+  }
+  .main__nordic .main__h1 {
+    font-size: 4rem;
+  }
+  .main__nordic .main__h4 {
+    padding: 1vw;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    top: 2vw;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+  }
+  .footer__nordic {
+    position: relative;
+    bottom: 5vw;
+  }
+  .body__contact {
+    background: url(../media/contacto.jpg);
+  }
+  .container .form {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  .container .form .form-header .form-title {
+    color: white;
+    font-weight: normal;
+    width: 90%;
+    max-width: 60vw;
+    margin: auto;
+    padding: 2vw 15vw;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+    border-radius: 1vw;
+    text-align: center;
+  }
+  .container .form .form-header .form-title .form-label {
+    display: block;
+  }
+  .form-label {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .form-textarea {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 70vw;
+    padding: 0.5rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 1rem;
+    color: white;
+    position: relative;
+    left: 0.1vw;
+  }
+  .form-input {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 80vw;
+    padding: 1rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 1rem;
+    color: white;
+  }
+  .btn-submit {
+    width: 50vw;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 1.5vw;
+    right: 1vw;
+  }
+}
+
+@media (min-width: 1281px) {
+  .index__h1 {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    bottom: 35vw;
+  }
+  .index__h2 {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 3rem;
+  }
+  .main__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20vw;
+    position: relative;
+    top: 5vw;
+  }
+  .main__subtitles {
+    text-align: center;
+  }
+  .main__subtitles .subtitle2 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-right: 8.5vw;
+    margin-left: 8.5vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 8vw;
+    font-size: 2rem;
+  }
+  .main__popular .index2__h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 13vw;
+    font-size: 4rem;
+    font-family: 'Nunito', sans-serif;
+  }
+  .main__popular .main__line {
+    position: relative;
+    left: 49vw;
+    top: 13vw;
+  }
+  .main__images {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 4vw;
+  }
+  .main__images .img-thumbnail {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    border: none;
+    height: auto;
+    width: 25vw;
+    position: relative;
+    top: 13vw;
+  }
+  .flex-shrink-0 {
+    position: relative;
+    top: 15vw;
+  }
+  /*------INDUMENTARIA-------*/
+  .indu__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+  }
+  .indumentariaimg {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+  }
+  .indumentariaimg .ind1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__indu {
+    position: relative;
+    bottom: 12vw;
+  }
+  /*----MOUNTAIN BIKE------*/
+  .mountain__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+  }
+  /*-----BMX------*/
+  .bmx__h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+  }
+  .bmximg {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    justify-items: center;
+    text-align: center;
+    gap: 5vw;
+    position: relative;
+    bottom: 2vw;
+  }
+  .bmximg .bmx1 .card .card-body .btn-primary {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .footer__bmx {
+    position: relative;
+    bottom: 15vw;
+  }
+  /*-------NORDIC BIKE-----*/
+  .main__nordic .main__mountain1 {
+    height: auto;
+    width: 99vw;
+  }
+  .main__nordic .main__title {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 1vw;
+    margin: 2vw;
+  }
+  .main__nordic .main__img {
+    height: auto;
+    width: 30vw;
+  }
+  .main__nordic .main__h1 {
+    font-size: 4rem;
+  }
+  .main__nordic .main__h4 {
+    padding: 1vw;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    top: 2vw;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+  }
+  .footer__nordic {
+    position: relative;
+    bottom: 5vw;
+  }
+  /*---CONTACTO---*/
+  .body__contact {
+    background: url(../media/contacto.jpg);
+  }
+  .container .form {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  .container .form .form-header .form-title {
+    color: white;
+    font-weight: normal;
+    width: 90%;
+    max-width: 60vw;
+    margin: auto;
+    padding: 2vw 15vw;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+    border-radius: 1vw;
+    text-align: center;
+  }
+  .container .form .form-header .form-title .form-label {
+    display: block;
+  }
+  .form-label {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .form-textarea {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 20vw;
+    padding: 0.5rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    left: 10vw;
+  }
+  .form-input {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 20vw;
+    padding: 0.5rem;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+    font-size: 2rem;
+    color: white;
+  }
+  .btn-submit {
+    width: 20vw;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 1.5vw;
+    right: 10.2vw;
+  }
+  /*---ERROR 404------*/
+  .main__error404 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 15vw;
+  }
+  .main__error404 .error__h1 {
+    position: relative;
+    bottom: 10vw;
+    left: 10vw;
+    font-size: 8rem;
+  }
+  .main__error404 .error__h2 {
+    position: relative;
+    right: 23.6vw;
+    bottom: 2vw;
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
