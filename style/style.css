@@ -1448,5 +1448,13 @@
     bottom: 2vw;
     font-size: 3rem;
   }
+  .main__error404 .volver__h2 {
+    position: relative;
+    top: 2vw;
+    right: 48.2vw;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: black;
+  }
 }
 /*# sourceMappingURL=style.css.map */
